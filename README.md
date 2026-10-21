@@ -34,5 +34,5 @@ These insights empower stakeholders with key business metrics, enabling strategi
 This project is licensed under the [MIT License]. You are free to use, modify, and share this project with proper attribution.
 
 ### 🌟About Me
-Hi there! I'm Karthick. Results-driven Business & Data Analyst with 4+ years in Amazon Tech Ops, serving as the primary bridge between global business stakeholders and cross-functional engineering teams to drive catalog expansion, competitor intelligence, and data-led strategic initiatives across JP, SG, AU, Far East, and MENA marketplaces.
+Hi there! I'm **Karthick**. Results-driven **Business & Data Analyst** with **4+** years in Amazon Tech Ops, serving as the primary bridge between global business stakeholders and cross-functional engineering teams to drive catalog expansion, competitor intelligence, and data-led strategic initiatives across JP, SG, AU, Far East, and MENA marketplaces.
 
