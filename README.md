@@ -66,7 +66,15 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
+### The SQL projects
 
+| Project| Materials |
+|:--|:--|
+| **Data Warehouse** | this repository |
+| **Exploratory Data Analysis** | [Repository](https://github.com/karthimahi/sql-data-analytics-project) |
+| **Advanced Data Analytics** | [Repository](https://github.com/karthimahi/sql-data-analytics-project)  | |
+
+---
 ### 🛡️License
 
 This project is licensed under the [MIT License]. You are free to use, modify, and share this project with proper attribution.
