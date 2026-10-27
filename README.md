@@ -87,7 +87,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Defining project naming conventions -> Set of rules or guidelines for naming anything in the project(eg. naming databases, and tables). Please refer it from here [Naming Conventions](docs/naming_conventions.md)
 - Creating Database (DataWarehouse) & Schemas (bronze, silver, gold). Please refer it from here [Creating Databases & Schemas](scripts/init_database.sql)
 
-### 3. Building Bronze Layer
+### 4. Building Bronze Layer
 - Analyzing: Source Systems below:
      - 1. **Business Context & Ownership** -> Who **owns** the **data**?
                                             What **Business Process** it supports?
@@ -103,7 +103,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Created a stored procedure to ingest the files into a bronze layer [Stored Procedure Bronze](scripts/bronze/procedure_load_bronze.sql)
 - Validating: Data **Completeness** & **Schema** Checks.
   
-### 3. Building Silver Layer
+### 5. Building Silver Layer
 - Analyzing: Exploring & understanding the data.
 - Coding: Data **Cleansing** -> Creating the tables by using the [DDL script for silver layer](scripts/silver/ddl_silver.sql)
 - Quality Checks: Performs various quality checks for **data consistency, accuracy, and standardization** across the 'silver' layer. It includes checks for:
@@ -117,7 +117,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Created a stored procedure to performs the **ETL** (Extract, Transform, Load) process to populate the 'silver' schema tables from the 'bronze' schema. [Stored Procedure Silver](scripts/silver/procedure_load_silver.sql)
 - Validating: Data **Correctness** Checks.
 
-### 4. Building Gold Layer
+### 6. Building Gold Layer
 - Analyzing: Exploring & understanding the Business Ojects.
   
  *Created data integration diagram.*
