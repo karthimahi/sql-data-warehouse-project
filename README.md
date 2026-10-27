@@ -176,5 +176,5 @@ Hi there! I'm **Karthick**. Results-driven **Business & Data Analyst** with **4+
 ---
 
 ### Next Steps / Continuation:
-This project (Data Warehouse and Analytics Project) continues in Project ([Repository](https://github.com/karthimahi/sql-data-analytics-project)), where we get to know the data, from the tables and dates to the big numbers and the top performers also go deeper with trends, running totals, performance, part-to-whole and segments.
+This project [SQL DataWareHouse Project](https://github.com/karthimahi/sql-data-warehouse-project/) continues in Project [SQL Data Analytics Project](https://github.com/karthimahi/sql-data-analytics-project), where we get to know the data, from the tables and dates to the big numbers and the top performers also go deeper with trends, running totals, performance, part-to-whole and segments.
 
