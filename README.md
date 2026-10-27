@@ -99,13 +99,14 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Coding: Data **Ingestion** --> Explore the data to identify the source system column names and data types & Creating the tables by using the [DDL script for bronze layer](scripts/bronze/ddl_bronze.sql)
 - Created a **`datasets/** folder in GitHub.
 - Uploaded `cust_info.csv`, `prd_info.csv`, `sales_details.csv`, `CUST_AZ12.csv`, `LOC_A101.csv`, `PX_CAT_G1V2.csv`into `datasets/`.
-- These will be ingested into Bronze Layer via SQL Server using **BULK INSERT**. Created a stored procedure to ingest the files into a bronze layer [Stored Procedure Bronze](scripts/bronze/procedure_load_bronze.sql)
+- These will be ingested into Bronze Layer via SQL Server using **BULK INSERT**.
+- Created a stored procedure to ingest the files into a bronze layer [Stored Procedure Bronze](scripts/bronze/procedure_load_bronze.sql)
 - Validating: Data **Completeness** & **Schema** Checks.
   
 ### 3. Building Silver Layer
 - Analyzing: Exploring & understanding the data.
 - Coding: Data **Cleansing** -> Creating the tables by using the [DDL script for silver layer](scripts/silver/ddl_silver.sql)
-- Quality Checks: Performs various quality checks for data consistency, accuracy, and standardization across the 'silver' layer. It includes checks for:
+- Quality Checks: Performs various quality checks for **data consistency, accuracy, and standardization** across the 'silver' layer. It includes checks for:
     - Null or duplicate primary keys.
     - Unwanted spaces in string fields.
     - Data standardization and consistency.
@@ -113,7 +114,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
     - Data consistency between related fields.
       
 *Please find the quality checks in silver layer here* [Data Quality checks in silver layer](tests/quality_checks_silver.sql)
-- Created a stored procedure to performs the ETL (Extract, Transform, Load) process to populate the 'silver' schema tables from the 'bronze' schema. [Stored Procedure Silver](scripts/silver/procedure_load_silver.sql)
+- Created a stored procedure to performs the **ETL** (Extract, Transform, Load) process to populate the 'silver' schema tables from the 'bronze' schema. [Stored Procedure Silver](scripts/silver/procedure_load_silver.sql)
 - Validating: Data **Correctness** Checks.
 
 ### 4. Building Gold Layer
@@ -125,14 +126,14 @@ The data architecture for this project follows Medallion Architecture **Bronze**
     - Build the Business Object
     - Choose the Dimension vs Fact
     - Rename to friendly names
-- Quality Checks: Performs quality checks to validate the integrity, consistency, and accuracy of the Gold Layer. These checks ensure:
+- Quality Checks: Performs quality checks to validate the **integrity, consistency, and accuracy** of the Gold Layer. These checks ensure:
     - Uniqueness of surrogate keys in dimension tables.
     - Referential integrity between fact and dimension tables.
     - Validation of relationships in the data model for analytical purposes.
    
 *Please find the quality checks in silver layer here* [Data Quality checks in gold layer](tests/quality_checks_gold.sql)
 - Validating: Data **Integration** Checks.
-- Building the **Star Schema** Model with the relationship between fact and dimensions is 1-to-many (1:N).
+- Building the **Star Schema** Model with the relationship between fact and dimensions is **1-to-many** (1:N).
 
 ![Data Model Star Schema](docs/data_model.png)
 
