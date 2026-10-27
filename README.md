@@ -128,7 +128,8 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Quality Checks: Performs quality checks to validate the integrity, consistency, and accuracy of the Gold Layer. These checks ensure:
     - Uniqueness of surrogate keys in dimension tables.
     - Referential integrity between fact and dimension tables.
-    - Validation of relationships in the data model for analytical purposes.     
+    - Validation of relationships in the data model for analytical purposes.
+   
 *Please find the quality checks in silver layer here* [Data Quality checks in gold layer](tests/quality_checks_gold.sql)
 - Validating: Data **Integration** Checks.
 - Building the **Star Schema** Model with the relationship between fact and dimensions is 1-to-many (1:N).
