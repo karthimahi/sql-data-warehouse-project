@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project Overview
 
 ​Welcome to the **Data Warehouse and Analytics Project** repository!🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
@@ -172,4 +172,9 @@ This project is licensed under the [MIT License]. You are free to use, modify, a
 ### 🌟About Me
 
 Hi there! I'm **Karthick**. Results-driven **Business & Data Analyst** with **4+** years in Amazon Tech Ops, serving as the primary bridge between global business stakeholders and cross-functional engineering teams to drive catalog expansion, competitor intelligence, and data-led strategic initiatives across JP, SG, AU, Far East, and MENA marketplaces.
+
+---
+
+### Next Steps / Continuation:
+This project (Data Warehouse and Analytics Project) continues in Project ([Repository](https://github.com/karthimahi/sql-data-analytics-project)), where we get to know the data, from the tables and dates to the big numbers and the top performers also go deeper with trends, running totals, performance, part-to-whole and segments.
 
